@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtMa"
+            android:layout_width="71dp"
+            android:layout_height="31dp"
+            android:text="Ma "
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/edt_ma"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtTen"
+            android:layout_width="71dp"
+            android:layout_height="31dp"
+            android:text="Ten "
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/edt_ten"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtMon"
+            android:layout_width="71dp"
+            android:layout_height="31dp"
+            android:text="Mon "
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="144dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn_DangKi"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:text="Dang Ki" />
+        <Button
+            android:id="@+id/btn_Xoa"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:text="Xoa" />
+        <Button
+            android:id="@+id/btn_Sua"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:text="Sua" />
+    </LinearLayout>
+</LinearLayout>
